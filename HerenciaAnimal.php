@@ -1,5 +1,6 @@
 <?php 
 class Animal {
+	//se declara los atributos de la clase animal 
 	public $color;
 	public $habitat;
 	protected $hervivoro= true;
@@ -28,7 +29,7 @@ class Animal {
 			</ul>');
 	}	
 }
-
+// Clase Reptil extiende de la clase base Animal
 class Reptil extends Animal {
 	protected $hervivoro = false;
 
@@ -142,7 +143,7 @@ final class Gato extends Mamifero {
 }
 
 
-//clases que heredan de la clase padre animal y sus jerarquias { }
+//clases que heredan de la clase padre animal y sus clases hijas{ }
 
 echo '<h1>Herencia Animal</h1>';
 
